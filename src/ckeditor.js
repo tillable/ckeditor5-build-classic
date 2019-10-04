@@ -11,6 +11,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
@@ -44,6 +45,7 @@ ClassicEditor.builtinPlugins = [
 	Bold,
 	Italic,
 	Underline,
+	FontSize,
 	BlockQuote,
 	CKFinder,
 	EasyImage,
@@ -70,6 +72,7 @@ ClassicEditor.defaultConfig = {
 		items: [
 			'heading',
 			'|',
+			'fontSize',
 			'bold',
 			'italic',
 			'underline',
