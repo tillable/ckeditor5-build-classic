@@ -8,6 +8,6 @@ export default class CustomParagraph extends Plugin {
 	init() {
 		const editor = this.editor;
 
-		editor.conversion.elementToElement( { model: 'paragraph', view: 'div'} );
+		editor.conversion.elementToElement( { model: 'paragraph', view: 'div' } );
 	}
 }
